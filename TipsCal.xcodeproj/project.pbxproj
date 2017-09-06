@@ -54,14 +54,22 @@
 		6AC8F5CD1F5EEE9E00BECE6A /* TipsCal */ = {
 			isa = PBXGroup;
 			children = (
-				6AC8F5CE1F5EEE9E00BECE6A /* AppDelegate.swift */,
 				6AC8F5D01F5EEE9E00BECE6A /* ViewController.swift */,
 				6AC8F5D21F5EEE9E00BECE6A /* Main.storyboard */,
+				6AC8F5E01F5EEEC600BECE6A /* Supporting Files */,
+			);
+			path = TipsCal;
+			sourceTree = "<group>";
+		};
+		6AC8F5E01F5EEEC600BECE6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AC8F5CE1F5EEE9E00BECE6A /* AppDelegate.swift */,
 				6AC8F5D51F5EEE9E00BECE6A /* Assets.xcassets */,
 				6AC8F5D71F5EEE9E00BECE6A /* LaunchScreen.storyboard */,
 				6AC8F5DA1F5EEE9E00BECE6A /* Info.plist */,
 			);
-			path = TipsCal;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2T52C7RAB;
-				INFOPLIST_FILE = TipsCal/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TipsCal/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.on99.TipsCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2T52C7RAB;
-				INFOPLIST_FILE = TipsCal/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TipsCal/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.on99.TipsCal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
